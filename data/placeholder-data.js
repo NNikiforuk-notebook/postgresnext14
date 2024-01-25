@@ -26,5 +26,5 @@ const harryPotter = [
 ];
 
 module.exports = {
-	harryPotter,
+	harryPotter
 };

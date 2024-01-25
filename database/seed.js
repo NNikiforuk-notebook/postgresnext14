@@ -1,5 +1,5 @@
 const { db } = require("@vercel/postgres");
-const { harryPotter } = require("../data/placeholder.js");
+const { harryPotter } = require("../data/placeholder-data.js");
 
 //Creating database, table and seeding it with placeholder data
 async function seedDatabase(client) {
