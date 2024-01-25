@@ -6,10 +6,12 @@ export async function GET(
 ) {
 	try {
 		const characters = await fetchHarryPotter();
-		const character = characters[0].find(
+
+		const character = characters.find(
 			(character) => character.id === parseInt(params.id)
 		);
 
+		
 		return Response.json(character);
 	} catch (error) {
 		console.error("Error in GET request:", error);

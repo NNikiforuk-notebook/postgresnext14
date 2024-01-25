@@ -3,4 +3,4 @@ export type harryPotterTypes = {
 	name: string;
 	age: number;
 	house: string;
-}[];
+};
