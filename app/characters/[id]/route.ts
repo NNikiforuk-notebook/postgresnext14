@@ -6,7 +6,7 @@ export async function GET(
 ) {
 	try {
 		const characters = await fetchHarryPotter();
-		const character = characters.find(
+		const character = characters[0].find(
 			(character) => character.id === parseInt(params.id)
 		);
 
