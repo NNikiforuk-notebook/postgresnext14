@@ -11,9 +11,10 @@ export async function GET(
 			(character) => character.id === parseInt(params.id)
 		);
 
-		
 		return Response.json(character);
 	} catch (error) {
 		console.error("Error in GET request:", error);
 	}
 }
+
+
