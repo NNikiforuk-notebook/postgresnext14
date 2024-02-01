@@ -1,5 +1,7 @@
 import { fetchHarryPotter } from "@/database/fetch";
 
+
+//Displaying all data in [id] route
 export async function GET(
 	request: Request,
 	{ params }: { params: { id: string } }
